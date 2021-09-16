@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+header{
+    background-color:black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 10vh;
+}
+.nav-logo{
+
+    height: 150px;
+    width: 120px;
+    margin-right: 20px;
+    float: left;
+}
+.btn i{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 3px;
+    margin-top: 5px;
+    margin-right: 5px;
+    height: ;
+    width: ;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.btn{
+    float: left;
+    margin-right: 30px;
+}
+.navs{
+    float:left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.navs li{
+    display: inline-block;
+    position: relative;
+}
+.navs li a{
+    margin-left: 25px;
+    
+}
+.navs ul{
+    position: absolute;
+    background-color: black;
+    
+    width:180px;
+    left: -999999px;;
+    top:25px;
+}
+.navs ul li{
+    margin-top: 10px;
+    padding: 10px auto;
+}
+.navs li:hover ul{
+    left:0;
+}
+.search-area{
+    float: right;
+    width: 30%;
+    margin-top:7px;
+
+}
+.search-area form{
+    background-color: #fff;
+    float: right;
+    max-width: 200px;
+    width:100%;
+}
+.search-area form input{
+    border: 0 solid;
+    width: 75%;
+    padding: 1%;
+    float: left;
+    color: #000;
+}
+.search-area form input[type="submit"]{
+    
+  background: url(search.png); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+width: 23%;
+float: ;
+}
+main{
+    width: 100%;
+}
+.hero-text{
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.hero-text h3{
+    float: left;
+    margin-left: 0;
+}
+.hero-text h4{
+    float: right;
+    font-weight: lighter;
+    color: #333;
+}
+.headlines{
+    padding:0 20px;
+    color: white;
+   
+    
+}
+#afghan{
+    background-image: url(afghann.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:50vh;
+    position: relative;
+}
+.content-a{
+    position: absolute;
+    top:60%;
+    left:2%;
+    line-height: 30px;
+
+    
+}
+.para{
+    margin-left: 1px;
+    position: relative;
+}
+.para::before{
+    position: absolute;
+    content: '';
+    display: block;
+    background-color: red;
+    width:2px;
+    height: 12px;
+    top: 7px;
+    left:-5px;
+
+}
+#us{
+    background-image: url(Biden.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 28vh;
+    margin-bottom: 10px;
+}
+.content-u{
+   position: absolute;
+   top:40%;
+   left: 2%;
+}
+.content-u h2{
+    margin-bottom: 15px;
+}
+.para2{
+    margin-left: 1px;
+    position: relative;
+}
+.para2::before{
+    position: absolute;
+    content: '';
+    display: block;
+    background-color: white;
+    width:2px;
+    height: 12px;
+    top: 5px;
+    left:-5px;
+
+}
+#football{
+    background-image: url(football.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 28vh;
+}
